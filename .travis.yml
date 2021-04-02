@@ -1,0 +1,7 @@
+language: cpp
+
+compiler: gcc
+  
+script:
+- g++ count_tokens.cpp -o count_tokens
+- ./count_tokens
