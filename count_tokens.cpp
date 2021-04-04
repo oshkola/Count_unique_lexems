@@ -11,7 +11,7 @@ vector<string> splitToTokens(string& input)
     istringstream ss(input);
     vector<string> tokens;
     
-    for(std::string singleToken; ss >> singleToken;) 
+    for(string singleToken; ss >> singleToken;) 
         tokens.push_back(singleToken);    
 
     return tokens;
